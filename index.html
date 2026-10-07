@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Sifaaaa</title> 
+    </head>
+    <body>
+        <nav class="navigasi">
+            <div class="logo-container">
+            <p class="teks-nav">Profil</p>
+        </div>
+        <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+            <div class="menu">
+            <a href="index.html">Beranda</a>
+            <a href="#Profil">Profil Singkat</a>
+            <a href="#Tentang">Tentang Saya</a>
+            <a href="#Skil">Skill</a>
+            <a href="#Kontak">Kontak</a>
+            </div>
+        </nav>
+        <header id="Profil">
+            <div class="Profil">
+            <img src="sipa2.jpg" alt="Profil" class="gambar-profil" width="200" height="200">
+            <div class="tentang">
+                <h1>Trisna Hasifa A.</h1>
+                <h2>Saya adalah seorang web designer yang sedang belajar</h2>
+            </div>
+        </div>
+        </header>
+        <article id="Tentang">
+            <div class="Posisi-aja">
+            <div class="teks-tentang">
+            <h6 style="font-size: 50px; padding-top: 60px;">About Me</h6>
+            <h6>Know me better</h6>
+            </div>
+            <h3>
+                Saya merupakan salah satu siswi di SMKN 2 Magelang, Saya berdedikasi untuk mempelajari bahasa pemrogramman seperti HTML, CSS, dan, JAVASCRIPT,saya akan selalu belajar~
+            </h3>
+        </div>
+        <h4>Tech Stack</h4>
+        <div id="Skil">
+            <div class="kotak">
+            <p>HTML</p>
+            <p>Memahami struktur dasar halaman web dan lebih ineraktif</p>
+            </div>
+            <div class="kotak">
+            <p>CSS</p>
+            <p>Menguasai styling dan layout untuk membuat tampilan web lebih menarik</p>
+            </div>
+            <div class="kotak">
+            <p>Javascript</p>
+            <p>Menguasai bahasa pemrograman untuk membuat web lebih interaktif</p>
+            </div>
+            <div class="kotak">
+            <p>Projek</p>
+            <p>Memiliki pengalaman dalam mengerjakan projek web pribadi</p>
+            </div>
+        </div>
+        </article>
+            </div>
+        </article>
+        <footer id="Kirim">
+            <div class="deh">
+        <h5>Contact Me</h5>
+            <p style="font-size: 30px; text-align: justify; margin-top: -40px;">Hubungi saya jika Anda ada keperluan untuk saya!</p>
+            </div>
+            <form action="kirim.php" method="POST">
+                <div id="Kontak">
+                    <div class="grup-input">
+                        <label class="teks-input">Nama: </label>
+                        <input type="text" name="Username" placeholder="Nama Anda" class="input-isi">
+                    </div>
+
+                    <div class="grup-input">
+                        <label class="teks-input">Email: </label>
+                        <input type="email" name="Email" placeholder="Email Anda" class="input-isi">
+                    </div>
+
+                    <div class="grup-input">
+                        <label class="teks-input">Pesan: </label>
+                        <textarea name="Pesan" placeholder="Pesan Anda" class="input-pesan"></textarea>
+                    </div>
+
+                    <input type="submit" name="kirim" value="Kirim" class="tombol-kirim">
+                </div>            
+            </form>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
